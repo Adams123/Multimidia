@@ -1,0 +1,18 @@
+Adams Vietro Codignotto da Silva - 6791943
+Rafael Hiroki de Figueiroa Minami - 7573187
+
+Para compilar:
+
+Utilizar o Makefile, com o comando make all.
+
+Para execução:
+Nome do arquivo gerado: t1
+Para codificar, executar como especificado na especificação. Para decodificar, não foi possível seguir como especificado, sendo necessário manter todas as flags. Então, segue o formato:
+
+decode -i arquivo_binario.bin -o arquivo_descomprimido.txt --bwt=X --txtblck=X --huffman=X –-runl=X
+
+Observações:
+
+O arquivo inicial não pode conter caracteres ASCII extendidos (maiores que 128), pois devido a restrições dos métodos de escrita em arquivo utilizados pelo RunLength e pelo BWT, não é possível escrever ASCIIs maiores ou igual que 128. O método utilizado get e put é de extrema facilidade de uso, no entanto gera esta restrição de não aceitar unsigned char para escrita ou leitura.
+
+Dependendo do tamanho do arquivo de entrada e do bloco utilizado pelo BWT, a compressão pode não ser muito eficaz. Além disso, a árvore de huffman é salva no arquivo binário final, sendo que esta pode ficar maior que a própria codificação. Portanto, huffman é mais indicado para arquivos maiores, onde é mais eficaz.

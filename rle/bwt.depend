@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1467162833 source:c:\dropbox\public\faculdade\multimídia\trabalho\t1\rle\bwt.cpp
+	"bwt.h"
+
+1467157203 source:c:\dropbox\public\faculdade\multimídia\trabalho\t1\rle\unbwt.cpp
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+	<fcntl.h>
+	<string.h>
+
+1467162767 c:\dropbox\public\faculdade\multimídia\trabalho\t1\rle\bwt.h
+	<stdio.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+	<fstream>
+

@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1463269164 source:c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\bwt.cpp
+	"bwt.h"
+
+1463254639 c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\bwt.h
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+	<fstream>
+	<sstream>
+	<map>
+
+1463346597 source:c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\main.cpp
+	"bwt.h"
+	"rl.h"
+	"queue.h"
+	"huffman.h"
+	<istream>
+
+1463255740 c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\rl.h
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<algorithm>
+	<vector>
+	<fstream>
+	<sstream>
+	<cstring>
+
+1463256716 source:c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\rl.cpp
+	"rl.h"
+
+1463357515 c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\queue.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<iomanip>
+	<cctype>
+
+1463358060 c:\dropbox\public\faculdade\multimídia\trabalho\t1\t1\huffman.h
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<iomanip>
+	<cctype>
+
